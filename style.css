@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Staatliches', cursive;
+}
+
+header {
+  height: 436px;
+  width: 100%;
+  background: #535971;
+}
+
+.header-wrapper {
+  padding-left: 345px;
+  padding-top: 140px;
+  color: #FFFFFF;
+}
+
+header h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 18px;
+}
+
+header p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.page {
+  width: 750px;
+  margin: 0 auto;
+}
