@@ -1,10 +1,12 @@
 *{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+  background: #E5E5E5;
 }
 
 h1 {
@@ -39,4 +41,83 @@ header p {
 .page {
   width: 750px;
   margin: 0 auto;
+}
+
+form {
+  margin-top: 38px;
+  background: #FFFFFF;
+  min-height: 300px;
+  border-radius: 20px 20px 0px 0px;
+  padding: 34px 64px 64px 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+fieldset legend {
+  text-transform: uppercase;
+  font-family: 'Staatliches', cursive;;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971;
+  width: 100%;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #E6E6F0;
+  margin-top: 30px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+  margin-bottom: 8px;
+}
+
+.input-wrapper label span {
+  margin-right: 12px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+}
+
+.input-wrapper label span:hover {
+  color: #6C6A71;
+}
+
+.input-wrapper input {
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  height: 56px;
+  padding: 0 24px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6C6A71;
+}
+
+.name-lastname {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  margin-top: 20px;
+}
+
+.name-lastname .input-wrapper input {
+  width: 300px;
 }
